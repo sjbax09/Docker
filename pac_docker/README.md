@@ -5,6 +5,17 @@ This repository provides a Dockerfile to create a Docker image with the Microsof
 
 ---
 
+## tl;dr
+
+You now have a Docker image with the PowerApps CLI installed, enabling you to manage Power Platform environments and solutions in a consistent, containerized environment. By following this guide, you can:
+
+- Build and run the Docker image on both Linux and Windows machines.
+- Authenticate and interact with your Power Platform environments.
+- Share files between your host and the container for seamless development.
+- Customize the Docker image to suit your specific needs.
+
+---
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -19,7 +30,6 @@ This repository provides a Dockerfile to create a Docker image with the Microsof
 - [Customizing the Docker Image](#customizing-the-docker-image)
 - [Cleaning Up Resources](#cleaning-up-resources)
 - [Additional Resources](#additional-resources)
-- [Summary](#summary)
 
 ---
 
@@ -289,17 +299,6 @@ docker system prune
   - [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 - **Authentication with Device Login:**
   - [Microsoft Identity Platform - Device Code Flow](https://learn.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code)
-
----
-
-## Summary
-
-You now have a Docker image with the PowerApps CLI installed, enabling you to manage Power Platform environments and solutions in a consistent, containerized environment. By following this guide, you can:
-
-- Build and run the Docker image on both Linux and Windows machines.
-- Authenticate and interact with your Power Platform environments.
-- Share files between your host and the container for seamless development.
-- Customize the Docker image to suit your specific needs.
 
 ---
 
